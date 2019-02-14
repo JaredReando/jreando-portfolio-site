@@ -7,15 +7,15 @@ import imageThree from '../assets/img/imageThree.jpg';
 
 let allProjects = [
   {
-    imagePath: <imageOne/>,
+    imagePath: imageOne,
     projectName: 'MasterMind'
   },
   {
-    imagePath: <imageTwo/>,
+    imagePath: imageTwo,
     projectName: 'Messenger Hunt'
   },
   {
-    imagePath: <imageThree/>,
+    imagePath: imageThree,
     projectName: 'Trimet Commuter'
   }
 ]
