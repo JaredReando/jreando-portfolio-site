@@ -4,6 +4,7 @@ import CircleImage from './CircleImage';
 import howdy from '../assets/img/howdy.jpg';
 
 function Project(props) {
+  console.log("props:", props.id, props.imagePath, props)
   return (
     <div style={{border: '1px solid red'}}>
       <CircleImage

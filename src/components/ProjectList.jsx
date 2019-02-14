@@ -29,6 +29,8 @@ function ProjectList() {
         <Project
           imagePath = {project.imagePath}
           projectName = {project.projectName}
+          key = {index}
+          id = {index}
         />
       )}
     </div>
