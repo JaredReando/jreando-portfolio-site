@@ -22,32 +22,28 @@ function HomePage() {
         scroll-snap-type: y mandatory;
       }
       
-      div {
+      section {
         border: 1px solid black;
+        scroll-snap-align: start;
       }
       
       #about-section {
         background: tomato;
-        scroll-snap-align: start;
       }
       
       #project-section {
-        scroll-snap-align: start;
         background: forestgreen;
       }
       
       #experience-section {
-        scroll-snap-align: start;
         background: skyblue;
       }
       
-      #education-section {
-        scroll-snap-align: start;  
+      #education-section {  
         background: grey;
       }
       
       #contact-section {
-        scroll-snap-align: start;
         background: tomato;
       }
       
