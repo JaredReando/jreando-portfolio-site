@@ -17,14 +17,19 @@ function HomePage() {
       div {
         border: 1px solid black;
       }
+      
+      #about-section {
+        background: tomato;
+        align-self: center;
+      }
       `}
     </style>
       
-      <div style={{background: 'tomato'}}>
+      <div id='about-section'>
         <About/>
       </div>
       
-      <div style={{background: 'lightyellow'}}>
+      <div id='project-section'>
         <ProjectList/>
       </div>
       

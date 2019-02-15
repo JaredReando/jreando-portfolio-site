@@ -17,7 +17,7 @@ Happy snooping!
 
 ## Project Structure
 
-<img src="src/assets/img/howdy.jpg" width="350" title="Project Structure Outline">
+<img src="src/assets/img/component_structure.jpg" width="350" title="Project Structure Outline">
 
 ## Setup/Installation Requirements
 #### 1. Clone the project to your local drive:

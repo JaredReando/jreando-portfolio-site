@@ -11,18 +11,23 @@ function About(props) {
 
         .wrapper {
           display: grid;
-          grid-template-columns: auto auto;
+          grid-template-columns: 1fr 2fr;
           grid-column-gap: 40px;
-          align-items: center;
-          justify-items: center;
         }
 
-        p {
-          max-width: 50%;
-        }
 
         div {
           border: 1px solid red;
+        }
+        
+        #profile-pic {
+          align-self: stretch;
+        }
+        
+        #about-content {
+          align-self: center;
+          jusitfy-self: center;
+          max-width: 500px;
         }
       `}
       </style>
@@ -35,10 +40,15 @@ function About(props) {
       <div id='about-content'>
       <a href="https://www.apple.com/" target="_blank">apple-bapple-dot-rapple.com</a>
         <h2>About</h2>
-        <p>On January 22, 2018, Austin, TX united in the first Hi, How Are You Day. Austinites were encouraged to check in on a neighbor, friend, co-worker, family member or loved one and ask, “Hi, How Are You?” - and to really mean it! Founders Tom Gimbel and Courtney Blanton were inspired by Austin’s love for the iconic friendly frog mural painted by Daniel Johnston - himself a world-renowned musician and visual artist despite his own struggles with mental health issues. The success of the day - and the outpouring of support from around the world - inspired the formation of the Hi, How Are You Project. The mission is to remove the stigma and shame around mental health, so people will feel open to communicate.
-        <br/>
-        <br/>
-        We believe if we can change minds, we can change the world!</p>
+        <code>hi there. my name is Jared. i'm so glad you're here.</code>
+        <p>Would you like to know a little about me? If you don't you should stop reading. The next bit is going to get pretty self-involved.</p>
+        <p>Born and raised in Anchorage, Alaska, I've been a committed Portlander for the last decade</p>
+        <p>After graduating with a double degree in Religious Studies and English Lit in 2012, I helped start and run a large shipping warehouse for the last six years for a fancy baby gear brand. Go figure.</p>
+        <p>I've tinkered and built things since I was little, driven by a deep-seated curiosity to know how the world works.</p>
+        <p>In my career so far, I've found success wherever I plant roots, look around, and ask, 'What's going on here? What can I learn? How can I make things better?"</p>
+        <p>I stumbled into programming sideways, driven by necessity to find solid solutions to real world problems that weren't going away on their own.</p>
+        <p>Seeing firsthand the transformative impact of well applied technology inspired my transition to pursue programming full time as a web developer</p>
+
       </div>
     </div>
   );
