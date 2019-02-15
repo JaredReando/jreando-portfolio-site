@@ -1,9 +1,53 @@
-#portfolio
+# Portfolio Site
 
-###Jared Reando 2019
+#### A web site showcasing my developer portfolio built with React.
 
+#### By Jared Reando
+###### February 14, 2019
 
-#Description
+## Description
 
-- The ongoing goal for this project is to have a playground to improve scalable styling and layouts using CSS and React components.
-- I prefer simple looking sites that are easy to navigate and without fluff, and my portfolio feels like a great canvas to try and implement those values 
+This is my portfolio web site. 
+
+It's where I'll post things about myself, my development work, past projects, education, and work experience. 
+
+It's meant to be a one-stop place to snoop around on who I am, what I'm about, and what kind of work I've done and want to do in the future.
+
+Happy snooping!
+
+## Project Structure
+
+<img src="src/assets/img/howdy.jpg" width="350" title="Project Structure Outline">
+
+## Setup/Installation Requirements
+#### 1. Clone the project to your local drive:
+```
+$ git clone https://github.com/jaredreando/jreando-portfolio-site
+```
+#### 2. Install project dependencies:
+```
+$ npm install
+```
+#### 3. Build and start local server hosting:
+```
+$ npm run start
+```
+#### 4. View the project in your web broswer: http://localhost:8080/ 
+
+## Known Bugs
+
+No known bugs.
+
+## Support and contact details
+
+jaredreando@gmail.com
+
+## Technologies Used
+- Javascript
+- React
+- HTML/CSS
+- Webpack
+
+### License
+
+This software is licensed under the MIT license.
