@@ -8,7 +8,7 @@ import Error404 from './Error404';
 
 function App() {
   return (
-    <div style={{padding: '0'}}>
+    <div>
       <Switch>
         <Route
           exact path='/'

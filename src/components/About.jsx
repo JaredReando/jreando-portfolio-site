@@ -13,18 +13,10 @@ function About(props) {
           display: grid;
           grid-template-columns: auto auto;
           grid-column-gap: 40px;
-          background: lightgreen;
           align-items: center;
           justify-items: center;
         }
 
-        #profile-pic img {
-          height: 200px;
-          width: 200px;
-          object-fit: cover;
-          border-radius: 50%;
-          border: 3px solid black;
-        }
         p {
           max-width: 50%;
         }
@@ -36,7 +28,7 @@ function About(props) {
       </style>
       <div id='profile-pic'>
         <CircleImage
-          imageSize='100px'
+          imageSize='200px'
           imagePath={howdy}
         />
       </div>
@@ -48,11 +40,8 @@ function About(props) {
         <br/>
         We believe if we can change minds, we can change the world!</p>
       </div>
-      <Contact/>
     </div>
   );
 }
-
-
 
 export default About;

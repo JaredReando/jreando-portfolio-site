@@ -6,24 +6,28 @@ import ProjectList from './ProjectList';
 function HomePage() {
   return (
     <div className='wrapper'>
-      <style jsx>{`
-        .wrapper {
-          font-family: America, sans-serif;
-          background: lightblue;
-          display: grid;
-          grid-template-columns: 100vw;
-          grid-template-rows: 50vh;
-          justify-items: center;
-          align-items: center
-        }
-        `}
-      </style>
-      <div>
+    <style jsx>{`
+      .wrapper {
+        font-family: America, sans-serif;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 100vh 50vh 50vh;
+      }
+      
+      div {
+        border: 1px solid black;
+      }
+      `}
+    </style>
+      
+      <div style={{background: 'tomato'}}>
         <About/>
       </div>
-      <div>
+      
+      <div style={{background: 'lightyellow'}}>
         <ProjectList/>
       </div>
+      
     </div>
   )
 }
