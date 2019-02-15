@@ -12,10 +12,14 @@ function HomePage() {
     <div className='wrapper'>
     <style jsx>{`
       .wrapper {
+        max-height: 100vh;
+        overflow: scroll;
+        
         font-family: America, sans-serif;
         display: grid;
         grid-template-columns: 100vw;
         grid-template-rows: 100vh repeat(4, 100vh);
+        scroll-snap-type: y mandatory;
       }
       
       div {
@@ -24,30 +28,51 @@ function HomePage() {
       
       #about-section {
         background: tomato;
-        align-self: center;
+        scroll-snap-align: start;
       }
+      
+      #project-section {
+        scroll-snap-align: start;
+        background: forestgreen;
+      }
+      
+      #experience-section {
+        scroll-snap-align: start;
+        background: skyblue;
+      }
+      
+      #education-section {
+        scroll-snap-align: start;  
+        background: grey;
+      }
+      
+      #contact-section {
+        scroll-snap-align: start;
+        background: tomato;
+      }
+      
       `}
     </style>
       
-      <div id='about-section'>
+      <section id='about-section'>
         <About/>
-      </div>
+      </section>
       
-      <div id='project-section'>
+      <section id='project-section'>
         <ProjectList/>
-      </div>
+      </section>
       
-      <div id='experience-section'>
+      <section id='experience-section'>
         <ExperienceList/>
-      </div>
+      </section>
       
-      <div id='education-section'>
+      <section id='education-section'>
         <EducationList/>
-      </div>
+      </section>
       
-      <div id='contact-section'>
+      <section id='contact-section'>
         <Contact/>
-      </div>
+      </section>
       
     </div>
   )
