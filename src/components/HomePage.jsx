@@ -2,6 +2,10 @@ import React from 'react';
 import About from './About';
 import Contact from './Contact';
 import ProjectList from './ProjectList';
+import ExperienceList from './ExperienceList';
+import Experience from './Experience';
+import EducationList from './EducationList';
+import Education from './Education';
 
 function HomePage() {
   return (
@@ -11,7 +15,7 @@ function HomePage() {
         font-family: America, sans-serif;
         display: grid;
         grid-template-columns: 100vw;
-        grid-template-rows: 100vh 50vh 50vh;
+        grid-template-rows: 100vh repeat(4, 100vh);
       }
       
       div {
@@ -31,6 +35,18 @@ function HomePage() {
       
       <div id='project-section'>
         <ProjectList/>
+      </div>
+      
+      <div id='experience-section'>
+        <ExperienceList/>
+      </div>
+      
+      <div id='education-section'>
+        <EducationList/>
+      </div>
+      
+      <div id='contact-section'>
+        <Contact/>
       </div>
       
     </div>
