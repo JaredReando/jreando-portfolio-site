@@ -12,7 +12,7 @@ function App() {
       <Switch>
         <Route
           exact path='/'
-          component={ProjectList}
+          component={HomePage}
         />
         <Route
           component={Error404}

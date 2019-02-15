@@ -23,16 +23,32 @@ let allProjects = [
 function ProjectList() {
   return (
     <div>
-      <h1>ProjectList works</h1>
+      <style jsx> {`
+        .project-wrapper {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          // grid-column-gap: 100px;
+          justify-items: center;
+          max-width: 80%;
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center;
+        }
+
+        `}
+      </style>
+      <h1 style={{textAlign: 'center'}}>'muh projects</h1>
       <hr/>
-      {allProjects.map((project, index) =>
-        <Project
+      <div className='project-wrapper'>
+        {allProjects.map((project, index) =>
+          <Project
           imagePath = {project.imagePath}
           projectName = {project.projectName}
           key = {index}
           id = {index}
-        />
-      )}
+          />
+        )}
+      </div>
     </div>
   )
 }

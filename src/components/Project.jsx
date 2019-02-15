@@ -5,7 +5,16 @@ import howdy from '../assets/img/howdy.jpg';
 
 function Project(props) {
   return (
-    <div style={{border: '1px solid red'}}>
+    <div className='project-card'>
+      <style jsx> {`
+        .project-card {
+          width: auto;
+          height: auto;
+          border: 1px solid black;
+        }
+
+        `}
+      </style>
       <CircleImage
         imageSize = '300px'
         imagePath = {props.imagePath}

@@ -8,13 +8,12 @@ function About(props) {
   return (
     <div className='wrapper'>
       <style jsx>{`
+
         .wrapper {
           display: grid;
           grid-template-columns: auto auto;
-          font-family: America, sans-serif;
           grid-column-gap: 40px;
           background: lightgreen;
-          height: 50vh;
           align-items: center;
           justify-items: center;
         }
@@ -26,10 +25,8 @@ function About(props) {
           border-radius: 50%;
           border: 3px solid black;
         }
-
-        #about-content {
-          margin-right: maxwidth(100px);
-          justify-self: center;
+        p {
+          max-width: 50%;
         }
 
         div {
