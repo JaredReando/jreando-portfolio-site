@@ -47,7 +47,7 @@ function HomePage() {
         background: tomato;
       }
       
-      `}
+    `}
     </style>
       
       <section id='about-section'>

@@ -38,16 +38,16 @@ function About(props) {
         />
       </div>
       <div id='about-content'>
-      <a href="https://www.apple.com/" target="_blank">apple-bapple-dot-rapple.com</a>
-        <h2>About</h2>
-        <code>hi there. my name is Jared. i'm so glad you're here.</code>
-        <p>Would you like to know a little about me? If you don't you should stop reading. The next bit is going to get pretty self-involved.</p>
-        <p>Born and raised in Anchorage, Alaska, I've been a committed Portlander for the last decade</p>
-        <p>After graduating with a double degree in Religious Studies and English Lit in 2012, I helped start and run a large shipping warehouse for the last six years for a fancy baby gear brand. Go figure.</p>
+        <h2 style={{textAlign: 'center'}}>hi.<br/></h2>
+        <h3 style={{textAlign: 'center'}}>i'm jared, and i'm so glad you're here.</h3>
+        <p>I was born and raised in Anchorage, Alaska, but I've been a committed Portlander for the last decade</p>
+        <p>After graduating with a double degree in religious studies and english lit in 2012, I helped start and run a large shipping warehouse for the last six years for a fancy baby gear brand. Go figure.</p>
         <p>I've tinkered and built things since I was little, driven by a deep-seated curiosity to know how the world works.</p>
         <p>In my career so far, I've found success wherever I plant roots, look around, and ask, 'What's going on here? What can I learn? How can I make things better?"</p>
         <p>I stumbled into programming sideways, driven by necessity to find solid solutions to real world problems that weren't going away on their own.</p>
-        <p>Seeing firsthand the transformative impact of well applied technology inspired my transition to pursue programming full time as a web developer</p>
+        <p>Seeing firsthand the transformative impact of well applied technology inspired my transition to pursue programming full time as a web developer.</p>
+        <p>I'm wrapping up a full-time bootcamp enrollment at Epicodus, drinking daily from the information firehose to learn Ruby, Javascript, and a handful of accompanying libraries and frameworks.</p>
+        <p>Check out below to read more about what I've been doing so far.</p>
 
       </div>
     </div>

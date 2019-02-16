@@ -5,6 +5,7 @@ import Project from './Project';
 import ProjectList from './ProjectList';
 import HomePage from './HomePage';
 import Error404 from './Error404';
+import Modal from './Modal';
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
         <Route
           exact path='/'
           component={HomePage}
+        />
+        <Route
+          exact path='/modal'
+          component={Modal}
         />
         <Route
           component={Error404}
