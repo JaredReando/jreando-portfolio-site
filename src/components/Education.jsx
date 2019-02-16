@@ -1,16 +1,21 @@
 import React from 'react';
 
-function Education() {
+function Education(props) {
   return (
     <div className='education'>
     <style jsx>{`
-      .contact {
-        background: green
+      .education {
+        display: inline-block;
+        margin: 20px;
+        background: red;
+        height: 300px;
+        width: 300px;
       }      
       `}
     </style>
-      <h1>Education Works<h1>
-    <div>
+    
+      <h1>You went to {props.school}</h1>
+    </div>
   )
 }
 

@@ -38,7 +38,6 @@ function ProjectList() {
         `}
       </style>
       <h1 style={{textAlign: 'center'}}>'muh projects</h1>
-      <hr/>
       <div className='project-wrapper'>
         {allProjects.map((project, index) =>
           <Project

@@ -9,8 +9,8 @@ function Contact() {
         }      
         `}
       </style>
-      <h1>Contact Works<h1>
-    <div>
+      <h1>Contact Works</h1>
+    </div>
   )
 }
 
