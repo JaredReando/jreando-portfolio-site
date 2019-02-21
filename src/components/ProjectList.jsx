@@ -4,19 +4,22 @@ import Project from './Project';
 import imageOne from '../assets/img/imageOne.jpg';
 import imageTwo from'../assets/img/imageTwo.png';
 import imageThree from '../assets/img/imageThree.jpg';
+import trimetCommuter from '../assets/img/trimet_commuter.png';
+import masterMind from '../assets/img/mastermind.png';
+import messengerHunt from '../assets/img/messenger_hunt.png';
 
 let allProjects = [
   {
-    imagePath: imageOne,
-    projectName: 'MasterMind'
+    imagePath: trimetCommuter,
+    projectName: 'Tri-Met Commuter'
   },
   {
-    imagePath: imageTwo,
+    imagePath: messengerHunt,
     projectName: 'Messenger Hunt'
   },
   {
-    imagePath: imageThree,
-    projectName: 'Trimet Commuter'
+    imagePath: masterMind,
+    projectName: 'Mastermind'
   }
 ]
 

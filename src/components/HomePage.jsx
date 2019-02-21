@@ -18,7 +18,7 @@ function HomePage() {
         font-family: America, sans-serif;
         display: grid;
         grid-template-columns: 100vw;
-        grid-template-rows: 100vh repeat(4, 100vh);
+        grid-template-rows: 100vh repeat(4, 50vh);
         scroll-snap-type: y mandatory;
       }
       

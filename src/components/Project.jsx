@@ -8,17 +8,20 @@ function Project(props) {
     <div className='project-card'>
       <style jsx> {`
         .project-card {
-          width: auto;
-          height: auto;
-          border: 1px solid black;
+          width: 300px;
+          height: 300px;
+          border: 3px solid black;
+          border-radius: 10px;
+          overflow: hidden;
+        }
+
+        .project-card:hover{
+         border: 4px solid grey;
         }
 
         `}
       </style>
-      <CircleImage
-        imageSize = '300px'
-        imagePath = {props.imagePath}
-      />
+      <img style={{width: '300px', height: '300px', objectFit: 'cover'}} src={props.imagePath}></img>
       <h2>{props.projectName}</h2>
     </div>
   )
