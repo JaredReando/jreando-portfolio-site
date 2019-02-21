@@ -9,7 +9,7 @@ const allSchools = [
     school: 'Multnomah'
   }
   
-]
+];
 
 
 function EducationList() {
@@ -18,12 +18,12 @@ function EducationList() {
       <h1>EducationList Works</h1>
       {allSchools.map((school, index) =>
         <Education
-        school = {school.school}
-        key = {index}
+          school = {school.school}
+          key = {index}
         />
       )}
     </div>
-  )
+  );
 }
 
 export default EducationList;

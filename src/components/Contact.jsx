@@ -15,19 +15,19 @@ function Contact() {
       </style>
       <h1>Contact Works</h1>
       <CircleImage
-      imageSize = '30px'
-      imagePath = {gitHubIcon}
+        imageSize = '30px'
+        imagePath = {gitHubIcon}
       />
       <CircleImage
-      imageSize = '30px'
-      imagePath = {linkedInIcon}
+        imageSize = '30px'
+        imagePath = {linkedInIcon}
       />
       <CircleImage
-      imageSize = '30px'
-      imagePath = {gmailIcon}
+        imageSize = '30px'
+        imagePath = {gmailIcon}
       />
     </div>
-  )
+  );
 }
 
 export default Contact;

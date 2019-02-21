@@ -18,7 +18,7 @@ const allEmployers = [
     jobDescription: 'Managed all aspects of 100,000ft2 national distribution center.'
   }
   
-]
+];
 
 
 function ExperienceList() {
@@ -27,14 +27,14 @@ function ExperienceList() {
       <h1>ExperienceList Works</h1>
       {allEmployers.map((gig, index) =>
         <Experience
-        employer = {gig.employer}
-        jobTitle = {gig.jobTitle}
-        jobDescription = {gig.jobDescription}
-        key = {index}
+          employer = {gig.employer}
+          jobTitle = {gig.jobTitle}
+          jobDescription = {gig.jobDescription}
+          key = {index}
         />
       )}
     </div>
-  )
+  );
 }
 
 export default ExperienceList;

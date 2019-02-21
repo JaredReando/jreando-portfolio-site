@@ -3,7 +3,7 @@ import React from 'react';
 function Education(props) {
   return (
     <div className='education'>
-    <style jsx>{`
+      <style jsx>{`
       .education {
         display: inline-block;
         margin: 20px;
@@ -12,11 +12,11 @@ function Education(props) {
         width: 300px;
       }      
       `}
-    </style>
+      </style>
     
       <h1>You went to {props.school}</h1>
     </div>
-  )
+  );
 }
 
 export default Education;

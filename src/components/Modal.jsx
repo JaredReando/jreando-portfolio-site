@@ -3,7 +3,7 @@ import React from 'react';
 function Modal() {
   return (
     <div>
-    <style jsx>{`
+      <style jsx>{`
         body {font-family: Arial, Helvetica, sans-serif;}
 
         /* The Modal (background) */
@@ -63,7 +63,7 @@ function Modal() {
 
       </div>
     </div>
-  )
+  );
 }
 
 

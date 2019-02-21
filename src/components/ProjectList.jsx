@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import Project from './Project';
 import imageOne from '../assets/img/imageOne.jpg';
 import imageTwo from'../assets/img/imageTwo.png';
@@ -10,18 +10,30 @@ import messengerHunt from '../assets/img/messenger_hunt.png';
 
 let allProjects = [
   {
-    imagePath: trimetCommuter,
-    projectName: 'Tri-Met Commuter'
+    imagePath: messengerHunt,
+    projectName: 'Messenger Hunt',
+    projectDescription: 'desc',
+    projectStack: 'stack',
+    projectGitLink: 'https://github.com/JaredReando/messenger_hunt',
+    projectDemoLink: 'http://message-hunter.herokuapp.com/'
   },
   {
-    imagePath: messengerHunt,
-    projectName: 'Messenger Hunt'
+    imagePath: trimetCommuter,
+    projectName: 'Tri-Met Commuter',
+    projectDescription: 'Trimet transit tracking application for daily commuters. Utilizes PDX Trimet API to display live ETA information for saved stops in a clean UI.',
+    projectStack: ['Javascript', 'Angular', 'Firebase'],
+    projectGitLink: 'https://github.com/JaredReando/trimet-commuter',
+    projectDemoLink: 'https://trimet-commuter.firebaseapp.com/main/am'
   },
   {
     imagePath: masterMind,
-    projectName: 'Mastermind'
+    projectName: 'Mastermind',
+    projectDescription: 'desc',
+    projectStack: 'stack',
+    projectGitLink: 'https://github.com/JaredReando/mastermind',
+    projectDemoLink: 'https://jaredreando.github.io/mastermind/'
   }
-]
+];
 
 function ProjectList() {
   return (
@@ -31,6 +43,7 @@ function ProjectList() {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
           // grid-column-gap: 100px;
+          align-items: start;
           justify-items: center;
           max-width: 80%;
           margin-right: auto;
@@ -40,19 +53,24 @@ function ProjectList() {
 
         `}
       </style>
-      <h1 style={{textAlign: 'center'}}>'muh projects</h1>
+      <h1 style={{textAlign: 'center'}}>Projects</h1>
       <div className='project-wrapper'>
         {allProjects.map((project, index) =>
           <Project
-          imagePath = {project.imagePath}
-          projectName = {project.projectName}
-          key = {index}
-          id = {index}
+            imagePath = {project.imagePath}
+            projectName = {project.projectName}
+            projectDescription = {project.projectDescription}
+            projectTechStack = {project.techStack}
+            projectGitLink = {project.projectGitLink}
+            projectDemoLink = {project.projectDemoLink}
+
+            key = {index}
+            id = {index}
           />
         )}
       </div>
     </div>
-  )
+  );
 }
 
 export default ProjectList;

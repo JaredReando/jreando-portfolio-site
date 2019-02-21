@@ -9,11 +9,11 @@ function CircleImage(props) {
     borderRadius: '50%',
     objectFit: 'cover',
     border: '2px solid black'
-  }
+  };
 
   return (
     <img style={styleObject} src={props.imagePath}></img>
-  )
+  );
 }
 
 export default CircleImage;

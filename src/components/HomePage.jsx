@@ -10,7 +10,7 @@ import Education from './Education';
 function HomePage() {
   return (
     <div className='wrapper'>
-    <style jsx>{`
+      <style jsx>{`
       .wrapper {
         max-height: 100vh;
         overflow: scroll;
@@ -28,27 +28,27 @@ function HomePage() {
       }
       
       #about-section {
-        background: tomato;
+        background: white;
       }
       
       #project-section {
-        background: forestgreen;
+        background: white;
       }
       
       #experience-section {
-        background: skyblue;
+        background: white;
       }
       
       #education-section {  
-        background: grey;
+        background: white;
       }
       
       #contact-section {
-        background: tomato;
+        background: white;
       }
       
     `}
-    </style>
+      </style>
       
       <section id='about-section'>
         <About/>
@@ -71,7 +71,7 @@ function HomePage() {
       </section>
       
     </div>
-  )
+  );
 }
 
 export default HomePage;
