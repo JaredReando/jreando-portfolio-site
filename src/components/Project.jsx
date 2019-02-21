@@ -12,6 +12,8 @@ function Project(props) {
         }
 
         .wrapper {
+          border: 1px solid black;
+          padding: 20px;
           max-width: 400px;
           display: grid;
           grid-template-columns: 1fr;
@@ -45,7 +47,7 @@ function Project(props) {
       </div>
 
       <div>
-        <p>{props.projectDescription}</p>
+        <p style={{textAlign: 'justify', fontSize: '1.2em'}}>{props.projectDescription}</p>
       </div>
     </div>
   );

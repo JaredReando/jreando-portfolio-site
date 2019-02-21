@@ -12,8 +12,8 @@ let allProjects = [
   {
     imagePath: messengerHunt,
     projectName: 'Messenger Hunt',
-    projectDescription: 'desc',
-    projectStack: 'stack',
+    projectDescription: 'Geo-location based messenging app. Uses Google API integration to post hidden messages for friends to find by checking in at matching locations.',
+    projectStack: ['Ruby', 'Rails', 'Javascript'],
     projectGitLink: 'https://github.com/JaredReando/messenger_hunt',
     projectDemoLink: 'http://message-hunter.herokuapp.com/'
   },
@@ -41,7 +41,6 @@ function ProjectList() {
       <style jsx> {`
         .project-wrapper {
           display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
           // grid-column-gap: 100px;
           align-items: start;
           justify-items: center;
@@ -49,6 +48,18 @@ function ProjectList() {
           margin-right: auto;
           margin-left: auto;
           text-align: center;
+        }
+        @media (min-width: 1060px) {
+          .project-wrapper {
+            grid-template-columns: 1fr 1fr 1fr;
+          }
+        }
+
+        @media (max-width: 1059px) {
+          .project-wrapper {
+            grid-template-columns: 1fr;
+            grid-row-gap: 20px;
+
         }
 
         `}

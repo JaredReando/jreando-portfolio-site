@@ -18,13 +18,15 @@ function HomePage() {
         font-family: America, sans-serif;
         display: grid;
         grid-template-columns: 100vw;
-        grid-template-rows: 100vh repeat(4, 50vh);
-        scroll-snap-type: y mandatory;
+        grid-template-rows: 100vh repeat(4, auto);
+        // scroll-snap-type: y mandatory;
       }
       
       section {
         border: 1px solid black;
         scroll-snap-align: start;
+        padding-top: 20px;
+        padding-bottom: 20px;
       }
       
       #about-section {
