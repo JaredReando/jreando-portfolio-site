@@ -12,23 +12,42 @@ function About(props) {
         .wrapper {
           display: grid;
           grid-template-columns: 1fr 2fr;
-          grid-column-gap: 40px;
+          // justify-items: center;
+          // align-items: center;
         }
-
 
         div {
           border: 1px solid red;
         }
         
         #profile-pic {
-          align-self: stretch;
+          align-self: center;
+          justify-self: center;
         }
         
-        #about-content {
+        div #about-content {
           align-self: center;
           jusitfy-self: center;
-          max-width: 500px;
+          max-width: 1000px;
+          margin-right: 40px;
+          margin-left: 40px
         }
+
+        @media (min-width: 645px) {
+          .wrapper {
+            display: grid;
+            background: lightgreen;
+            grid-template-columns: 1fr 3fr;
+          }
+        }
+
+        @media (max-width: 644px) {
+          .wrapper {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: space-evenly;
+        }
+
       `}
       </style>
       <div id='profile-pic'>

@@ -6,6 +6,7 @@ import ExperienceList from './ExperienceList';
 import Experience from './Experience';
 import EducationList from './EducationList';
 import Education from './Education';
+import NavBar from './NavBar';
 
 function HomePage() {
   return (
