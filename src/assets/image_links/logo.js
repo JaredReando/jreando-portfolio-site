@@ -1,0 +1,1 @@
+export default 'https://res.cloudinary.com/der238lix/image/upload/v1550861437/howdy.jpg'

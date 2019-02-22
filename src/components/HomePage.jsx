@@ -6,6 +6,8 @@ import ExperienceList from './ExperienceList';
 import EducationList from './EducationList';
 import styled from 'styled-components';
 
+import About2 from './About2';
+
 const Wrapper = styled.div`
   max-height: 100vh;
   overflow: scroll;
@@ -24,7 +26,7 @@ const Section = styled.section`
   padding-bottom: 20px;
 `;
 
-
+const color = 'blue'
 
 function HomePage() {
   return (
@@ -39,7 +41,7 @@ function HomePage() {
       // }
       
       #about-section {
-        background: white;
+        background: blue;
       }
       
       #project-section {
@@ -57,12 +59,11 @@ function HomePage() {
       #contact-section {
         background: white;
       }
-      
     `}
       </style>
 
-      <Section id='about-section'>
-        <About/>
+      <Section style={{background: {color}}} id='about-section'>
+        <About2/>
       </Section>
       
       <Section id='project-section'>
