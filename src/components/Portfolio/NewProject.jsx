@@ -117,7 +117,7 @@ const Link = styled.a`
 	@media (min-width: 1000px) {
 		margin: 0 10px 10px 0;
 		&:hover {
-			transition-duration: 0.3s;
+			transition-duration: .6s;
 			background: ${gray};
 		}
 	}

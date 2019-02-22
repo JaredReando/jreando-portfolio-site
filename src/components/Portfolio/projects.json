@@ -14,7 +14,82 @@
 		"date": "December 2018",
 		"links": [
 			{
-				"name": "Website",
+				"name": "Demo",
+				"url": "http://message-hunter.herokuapp.com/"
+			},
+			{
+				"name": "Repository",
+				"url": "https://github.com/JaredReando/messenger_hunt"
+			}
+		],
+		"status": "In Development"
+  },
+  {
+		"id": 2,
+		"name": "Mastermind",
+		"roles": ["Team Project"],
+		"description": "Geo-location based messenging app. Uses Google API integration to post hidden messages for friends to find by checking in near the same locations.",
+		"technologyUsed": [
+			"Ruby",
+			"Rails",
+			"Javascript",
+			"PostgreSQL"
+		],
+		"logoLink": "../../assets/img/messenger_hunt.png",
+		"date": "December 2018",
+		"links": [
+			{
+				"name": "Demo",
+				"url": "http://message-hunter.herokuapp.com/"
+			},
+			{
+				"name": "Repository",
+				"url": "https://github.com/JaredReando/messenger_hunt"
+			}
+		],
+		"status": "In Development"
+  },
+  {
+		"id": 3,
+		"name": "Mastermind",
+		"roles": ["Team Project"],
+		"description": "Geo-location based messenging app. Uses Google API integration to post hidden messages for friends to find by checking in near the same locations.",
+		"technologyUsed": [
+			"Ruby",
+			"Rails",
+			"Javascript",
+			"PostgreSQL"
+		],
+		"logoLink": "../../assets/img/messenger_hunt.png",
+		"date": "December 2018",
+		"links": [
+			{
+				"name": "Demo",
+				"url": "http://message-hunter.herokuapp.com/"
+			},
+			{
+				"name": "Repository",
+				"url": "https://github.com/JaredReando/messenger_hunt"
+			}
+		],
+		"status": "In Development"
+  },
+  {
+		"id": 4,
+		"name": "Mastermind",
+		"roles": ["Team Project"],
+		"description": "Geo-location based messenging app. Uses Google API integration to post hidden messages for friends to find by checking in near the same locations.",
+		"technologyUsed": [
+			"Ruby",
+			"Rails",
+			"Javascript",
+			"PostgreSQL"
+		],
+		"logoLink": "../../assets/img/messenger_hunt.png",
+		"date": "December 2018",
+		"links": [
+			{
+				"name": "Demo",
 				"url": "http://message-hunter.herokuapp.com/"
 			},
 			{
