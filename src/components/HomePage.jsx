@@ -7,83 +7,35 @@ import EducationList from './EducationList';
 import styled from 'styled-components';
 
 import About2 from './About2';
+import Education from './Education';
 
-const Wrapper = styled.div`
-  max-height: 100vh;
-  overflow: scroll;
-  
-  font-family: America, sans-serif;
-  display: grid;
-  grid-template-columns: 100vw;
-  grid-template-rows: 100vh repeat(4, auto);
-  // scroll-snap-type: y mandatory;
+
+const StyledDiv = styled.div``;
+
+const MiddlePart = styled.div`
+  background: lightgreen;
+  height: auto;
+
+  @media (min-width: 1000px) {
+    padding-bottom: 10px;
+  }
+
+  @media (max-width: 1000px) {
+    margin: 0;
+  }
 `;
-
-const Section = styled.section`
-  border: 1px solid black;
-  scroll-snap-align: start;
-  padding-top: 20px;
-  padding-bottom: 20px;
-`;
-
-const color = 'blue'
 
 function HomePage() {
   return (
-    <Wrapper>
-      <style jsx>{`
-      
-      // section {
-      //   border: 1px solid black;
-      //   scroll-snap-align: start;
-      //   padding-top: 20px;
-      //   padding-bottom: 20px;
-      // }
-      
-      #about-section {
-        background: blue;
-      }
-      
-      #project-section {
-        background: white;
-      }
-      
-      #experience-section {
-        background: white;
-      }
-      
-      #education-section {  
-        background: white;
-      }
-      
-      #contact-section {
-        background: white;
-      }
-    `}
-      </style>
-
-      <Section style={{background: {color}}} id='about-section'>
-        <About2/>
-      </Section>
-      
-      <Section id='project-section'>
-        <ProjectList/>
-      </Section>
-      
-      <Section id='experience-section'>
-        <ExperienceList/>
-      </Section>
-      
-      <Section id='education-section'>
-        <EducationList/>
-      </Section>
-      
-      <Section id='contact-section'>
-        <Contact/>
-      </Section>
-      
-    </Wrapper>
-  );
+    <StyledDiv>
+      <About2 />
+      <MiddlePart>
+        <ProjectList />
+        <EducationList />
+      </MiddlePart>
+      <Contact />
+    </StyledDiv>
+  )
 }
 
 export default HomePage;
