@@ -6,7 +6,7 @@ import EducationList from './Education/EducationList';
 import styled from 'styled-components';
 
 import About2 from './AboutMe/About2';
-import NewProjectList from './Portfolio/NewProjectList';
+import NewProject from './Portfolio/NewProject';
 
 
 
@@ -30,7 +30,6 @@ function Main() {
     <StyledDiv>
       <About2 />
       <MiddlePart>
-        <NewProjectList />
         <ProjectList />
         <EducationList />
         <ExperienceList />

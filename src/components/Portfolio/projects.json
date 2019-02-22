@@ -8,9 +8,9 @@
 			"Ruby",
 			"Rails",
 			"Javascript",
-			"PostgreSQL",
+			"PostgreSQL"
 		],
-		"logoLink": "https://res.cloudinary.com/starksten/image/upload/v1547206117/Group.png",
+		"logoLink": "../../assets/img/messenger_hunt.png",
 		"date": "December 2018",
 		"links": [
 			{

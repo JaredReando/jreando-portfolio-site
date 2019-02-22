@@ -168,21 +168,21 @@ const Status = styled.p`
   font-size: 0.9em;
 `;
 
-function NewProjectList(project) {
+function NewProject(props) {
 	return (
 		<StyledDiv>
 			<LeftContainer>
 				<InnerContainer>
-					<ProjectLogoContainer logo={project.logoLink} />
-					<ProjectName>{project.name}</ProjectName>
-					<Status>({project.status})</Status>
+					<ProjectLogoContainer logo={props.project.logoLink} />
+					<ProjectName>{props.project.name}</ProjectName>
+					<Status>({props.project.status})</Status>
 				</InnerContainer>
 			</LeftContainer>
 			<RightContainer>
 				<ProjectDescription>
-					<Description>{project.description}</Description>
+					<Description>{props.project.description}</Description>
 					<LinksContainer>
-						{project.links.map((link, index) => (
+						{props.project.links.map((link, index) => (
 							<Link key={index} href={link.url} target="_blank">
 								{link.name}
 							</Link>
@@ -190,18 +190,20 @@ function NewProjectList(project) {
 					</LinksContainer>
 					<Description>
 						Roles:{' '}
-						{project.roles.map((role, index) => (
+						{props.project.roles.map((role, index) => (
 							<Role key={index}>{role}</Role>
 						))}
 					</Description>
 					<TechnologyUsedContainer>
-						{project.technologyUsed.map((tech) => (
+						{props.project.technologyUsed.map((tech) => (
 							<TechnologyUsed key={tech}>{tech}</TechnologyUsed>
 						))}
 					</TechnologyUsedContainer>
-					<StyledDate>{project.date}</StyledDate>
+					<StyledDate>{props.project.date}</StyledDate>
 				</ProjectDescription>
 			</RightContainer>
 		</StyledDiv>
 	)
 }
+
+export default NewProject;
