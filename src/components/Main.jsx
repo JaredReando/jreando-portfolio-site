@@ -2,7 +2,7 @@ import React from 'react';
 import Contact from './Footer/Contact';
 import ProjectList from './Portfolio/ProjectList';
 import ExperienceList from './Experience/ExperienceList';
-import EducationList from './EducationList';
+import EducationList from './Education/EducationList';
 import styled from 'styled-components';
 
 import About2 from './AboutMe/About2';

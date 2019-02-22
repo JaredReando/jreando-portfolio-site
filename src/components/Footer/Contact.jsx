@@ -1,8 +1,8 @@
 import React from 'react';
 import gitHubIcon from '../../assets/img/github-sign.svg';
-// import linkedInIcon from '../../assets/img/linkedin-sign.svg';
-// import gmailIcon from '../../assets/img/gmail.svg';
-// import CircleImage from '../../CircleImage';
+import linkedInIcon from '../../assets/img/linkedin-sign.svg';
+import gmailIcon from '../../assets/img/gmail.svg';
+import CircleImage from '../CircleImage';
 
 function Contact() {
   return (

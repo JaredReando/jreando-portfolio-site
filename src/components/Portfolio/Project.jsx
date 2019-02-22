@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CircleImage from '../CircleImage';
-import howdy from '~/assets/img/howdy.jpg';
+import howdy from '../../assets/img/howdy.jpg';
 
 function Project(props) {
   return (
