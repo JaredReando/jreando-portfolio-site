@@ -31,10 +31,12 @@
   "homepage": "https://github.com/JaredReando/jreando-portfolio-site#readme",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
+    "babel-plugin-root-import": "^6.1.0",
     "bootstrap": "^4.3.0",
     "prop-types": "^15.5.10",
     "react": "^16.4.0",
     "react-animate-on-scroll": "^2.1.5",
+    "react-app-rewired": "^2.1.0",
     "react-dom": "^16.4.0",
     "react-router-dom": "^4.0.0",
     "styled-components": "^4.1.3",

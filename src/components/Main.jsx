@@ -1,13 +1,12 @@
 import React from 'react';
-import About from './About';
-import Contact from './Contact';
-import ProjectList from './ProjectList';
-import ExperienceList from './ExperienceList';
+import Contact from './Footer/Contact';
+import ProjectList from './Portfolio/ProjectList';
+import ExperienceList from './Experience/ExperienceList';
 import EducationList from './EducationList';
 import styled from 'styled-components';
 
-import About2 from './About2';
-import Education from './Education';
+import About2 from './AboutMe/About2';
+
 
 
 const StyledDiv = styled.div``;
@@ -25,17 +24,18 @@ const MiddlePart = styled.div`
   }
 `;
 
-function HomePage() {
+function Main() {
   return (
     <StyledDiv>
       <About2 />
       <MiddlePart>
         <ProjectList />
         <EducationList />
+        <ExperienceList />
       </MiddlePart>
       <Contact />
     </StyledDiv>
   )
 }
 
-export default HomePage;
+export default Main;
