@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"name": "Messenger Hunt",
+		"roles": ["Team Project"],
+		"description": "Geo-location based messenging app. Uses Google API integration to post hidden messages for friends to find by checking in near the same locations.",
+		"technologyUsed": [
+			"Ruby",
+			"Rails",
+			"Javascript",
+			"PostgreSQL",
+		],
+		"logoLink": "https://res.cloudinary.com/starksten/image/upload/v1547206117/Group.png",
+		"date": "December 2018",
+		"links": [
+			{
+				"name": "Website",
+				"url": "http://message-hunter.herokuapp.com/"
+			},
+			{
+				"name": "Repository",
+				"url": "https://github.com/JaredReando/messenger_hunt"
+			}
+		],
+		"status": "In Development"
+	}
+]
