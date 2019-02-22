@@ -23,6 +23,7 @@ function About(props) {
         #profile-pic {
           align-self: center;
           justify-self: center;
+          text-align: center;
         }
         
         div #about-content {
@@ -55,6 +56,8 @@ function About(props) {
           imageSize='200px'
           imagePath={howdy}
         />
+        <h1>Jared Reando</h1>
+        <h3>Full Stack Web Developer</h3>
       </div>
       <div id='about-content'>
         <h2 style={{textAlign: 'center'}}>hi.<br/></h2>

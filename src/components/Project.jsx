@@ -10,6 +10,14 @@ function Project(props) {
         * {
           margin: 0;
         }
+        a {
+          text-decoration: none;
+          color: green;
+        }
+
+        a:hover {
+          color: black;
+        }
 
         .wrapper {
           border: 1px solid black;

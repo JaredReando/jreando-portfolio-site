@@ -12,9 +12,9 @@ let allProjects = [
   {
     imagePath: messengerHunt,
     projectName: 'Messenger Hunt',
-    projectDescription: 'Geo-location based messenging app. Uses Google API integration to post hidden messages for friends to find by checking in at matching locations.',
+    projectDescription: 'Geo-location based messenging app. Uses Google API integration to post hidden messages for friends to find by checking in near the same locations.',
     projectStack: ['Ruby', 'Rails', 'Javascript'],
-    projectGitLink: 'https://github.com/JaredReando/messenger_hunt',
+    projectGitLink: 'T',
     projectDemoLink: 'http://message-hunter.herokuapp.com/'
   },
   {

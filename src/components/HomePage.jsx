@@ -3,10 +3,7 @@ import About from './About';
 import Contact from './Contact';
 import ProjectList from './ProjectList';
 import ExperienceList from './ExperienceList';
-import Experience from './Experience';
 import EducationList from './EducationList';
-import Education from './Education';
-import NavBar from './NavBar';
 
 function HomePage() {
   return (
@@ -52,7 +49,7 @@ function HomePage() {
       
     `}
       </style>
-      
+
       <section id='about-section'>
         <About/>
       </section>
