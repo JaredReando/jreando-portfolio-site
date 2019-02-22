@@ -4,9 +4,6 @@ import Contact from './Contact';
 import ProjectList from './ProjectList';
 import ExperienceList from './ExperienceList';
 import EducationList from './EducationList';
-
-// import styled from 'styled-components';
-
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
@@ -20,29 +17,26 @@ const Wrapper = styled.div`
   // scroll-snap-type: y mandatory;
 `;
 
+const Section = styled.section`
+  border: 1px solid black;
+  scroll-snap-align: start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+`;
+
 
 
 function HomePage() {
   return (
     <Wrapper>
       <style jsx>{`
-      // .wrapper {
-      //   max-height: 100vh;
-      //   overflow: scroll;
-        
-      //   font-family: America, sans-serif;
-      //   display: grid;
-      //   grid-template-columns: 100vw;
-      //   grid-template-rows: 100vh repeat(4, auto);
-      //   // scroll-snap-type: y mandatory;
-      // }
       
-      section {
-        border: 1px solid black;
-        scroll-snap-align: start;
-        padding-top: 20px;
-        padding-bottom: 20px;
-      }
+      // section {
+      //   border: 1px solid black;
+      //   scroll-snap-align: start;
+      //   padding-top: 20px;
+      //   padding-bottom: 20px;
+      // }
       
       #about-section {
         background: white;
@@ -67,25 +61,25 @@ function HomePage() {
     `}
       </style>
 
-      <section id='about-section'>
+      <Section id='about-section'>
         <About/>
-      </section>
+      </Section>
       
-      <section id='project-section'>
+      <Section id='project-section'>
         <ProjectList/>
-      </section>
+      </Section>
       
-      <section id='experience-section'>
+      <Section id='experience-section'>
         <ExperienceList/>
-      </section>
+      </Section>
       
-      <section id='education-section'>
+      <Section id='education-section'>
         <EducationList/>
-      </section>
+      </Section>
       
-      <section id='contact-section'>
+      <Section id='contact-section'>
         <Contact/>
-      </section>
+      </Section>
       
     </Wrapper>
   );
