@@ -13,7 +13,7 @@ import NewProject from './Portfolio/NewProject';
 const StyledDiv = styled.div``;
 
 const MiddlePart = styled.div`
-  background: lightgreen;
+  background: lightgrey;
   height: auto;
 
   @media (min-width: 1000px) {

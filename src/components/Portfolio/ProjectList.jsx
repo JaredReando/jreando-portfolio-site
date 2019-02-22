@@ -8,41 +8,52 @@ import styled from 'styled-components';
 
 
 const Wrapper = styled.div`
-  display: grid;
-  align-items: start;
-  justify-items: center;
-  max-width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  
-  @media (min-width: 1060px) {
-    grid-template-columns: 1fr 1fr 1fr;
+  height: auto;
+  @media (min-width: 1000px) {
+    margin-top: 20px;
   }
-  
-  @media (max-width: 1059px) {
-    grid-template-columns: 1fr;
-    grid-row-gap: 20px; 
+
+  @media (max-width: 1000px) {
+    text-align: center;
   }
 `;
 
+const Title = styled.p`
+  letter-spacing: 10px;
+  font-size: 2em;
+  font-weight: 300;
+  color: white;
 
+  @media (min-width: 1000px) {
+    margin-left: 100px;
+    z-index: 99999;
+  }
 
+  @media (max-width: 1000px) {
+    text-align: center;
+    font-size: 1.7em;
+    letter-spacing: 8px;
+  }
+`;
 
+const Projects = styled.div`
+  width: 90%;
+  margin: 20px auto 0 auto;
+`;
 
 function ProjectList() {
   return (
-    <div>
-      <h1 style={{textAlign: 'center'}}>Projects</h1>
-      <Wrapper>
-        {projects.map((project) =>
-          <NewProject
-            key = {project.id}
-            project = {project}
+    <Wrapper>
+      <Title>Projects</Title>
+      <Projects>
+        {projects.map((project) => (
+          <NewProject 
+          key={project.id} 
+          project={project} 
           />
-        )}
-      </Wrapper>
-    </div>
+        ))}
+      </Projects>
+    </Wrapper>
   );
 }
 
