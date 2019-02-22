@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Project from './Project';
-import imageOne from '../assets/img/imageOne.jpg';
-import imageTwo from'../assets/img/imageTwo.png';
-import imageThree from '../assets/img/imageThree.jpg';
 import trimetCommuter from '../assets/img/trimet_commuter.png';
 import masterMind from '../assets/img/mastermind.png';
 import messengerHunt from '../assets/img/messenger_hunt.png';

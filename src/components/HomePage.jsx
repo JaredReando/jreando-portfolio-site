@@ -5,20 +5,37 @@ import ProjectList from './ProjectList';
 import ExperienceList from './ExperienceList';
 import EducationList from './EducationList';
 
+// import styled from 'styled-components';
+
+import styled from 'styled-components';
+
+const Wrapper = styled.div`
+  max-height: 100vh;
+  overflow: scroll;
+  
+  font-family: America, sans-serif;
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 100vh repeat(4, auto);
+  // scroll-snap-type: y mandatory;
+`;
+
+
+
 function HomePage() {
   return (
-    <div className='wrapper'>
+    <Wrapper>
       <style jsx>{`
-      .wrapper {
-        max-height: 100vh;
-        overflow: scroll;
+      // .wrapper {
+      //   max-height: 100vh;
+      //   overflow: scroll;
         
-        font-family: America, sans-serif;
-        display: grid;
-        grid-template-columns: 100vw;
-        grid-template-rows: 100vh repeat(4, auto);
-        // scroll-snap-type: y mandatory;
-      }
+      //   font-family: America, sans-serif;
+      //   display: grid;
+      //   grid-template-columns: 100vw;
+      //   grid-template-rows: 100vh repeat(4, auto);
+      //   // scroll-snap-type: y mandatory;
+      // }
       
       section {
         border: 1px solid black;
@@ -70,7 +87,7 @@ function HomePage() {
         <Contact/>
       </section>
       
-    </div>
+    </Wrapper>
   );
 }
 
