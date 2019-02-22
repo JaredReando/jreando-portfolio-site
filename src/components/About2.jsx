@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import logo from '../assets/image_links/logo'
 import clearDog from '../assets/img/clear_dog.png';
 import greezno from '../assets/img/greezno.png';
+import myLogo from '../assets/img/my_logo.png';
 
 const mobileBG = 'https://res.cloudinary.com/starksten/image/upload/v1543685006/New%20Portfolio%202/mobileBG.png'
 
@@ -49,7 +50,7 @@ const TopLeftBG = styled.div`
     left: 0;
     width: 340px;
     height: 150px;
-    background: url('${greezno}') no-repeat;
+    background: url('${myLogo}') no-repeat;
     background-size: 100% 100%;
     z-index: -2;
   }
@@ -120,7 +121,7 @@ const LogoContainer = styled.div`
 	width: 300px;
 	height: 300px;
 	margin-top: 100px;
-	background: url(${logo}) no-repeat;
+	background: url(${myLogo}) no-repeat;
 	background-size: 100% 100%;
 	grid-area: logo;
 
