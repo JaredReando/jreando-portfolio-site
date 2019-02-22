@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import logo from '../assets/image_links/logo'
+import clearDog from '../assets/img/clear_dog.png';
 
 const mobileBG = 'https://res.cloudinary.com/starksten/image/upload/v1543685006/New%20Portfolio%202/mobileBG.png'
 
@@ -47,7 +48,7 @@ const TopLeftBG = styled.div`
     left: 0;
     width: 340px;
     height: 150px;
-    background: url('${topLeft}') no-repeat;
+    background: url('${clearDog}') no-repeat;
     background-size: 100% 100%;
     z-index: -2;
   }
