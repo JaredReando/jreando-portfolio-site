@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
-const black = 'black'
+const backgroundColor = 'black'
 
 const StyledDiv = styled.div`
   text-align: center;
@@ -45,7 +46,7 @@ const TextContainer = styled.a`
     &:hover {
       transition-duration: 0.3s;
       background: white;
-      color: ${black};
+      color: ${backgroundColor};
     }
   }
 `;
@@ -61,6 +62,12 @@ function Skill ({ name, logo, link }) {
       </TextContainer>
     </StyledDiv>
   );
+}
+
+Skill.propTypes = {
+  name: PropTypes.string,
+  logo: PropTypes.string,
+  link: PropTypes.string
 }
 
 export default Skill;

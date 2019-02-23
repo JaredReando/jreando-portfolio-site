@@ -9,7 +9,7 @@
 			"HTML/CSS",
 			"jQuery"
 		],
-		"logoLink": "../../assets/img/messenger_hunt.png",
+		"logoLink": "https://res.cloudinary.com/der238lix/image/upload/v1550861438/mastermind.png",
 		"date": "October 2018",
 		"links": [
 			{
@@ -34,7 +34,7 @@
 			"Javascript",
 			"PostgreSQL"
 		],
-		"logoLink": "../../assets/img/messenger_hunt.png",
+		"logoLink": "https://res.cloudinary.com/der238lix/image/upload/v1550861438/messenger_hunt.png",
 		"date": "December 2018",
 		"links": [
 			{
@@ -60,7 +60,7 @@
 			"Webpack",
 			"NPM"
 		],
-		"logoLink": "../../assets/img/messenger_hunt.png",
+		"logoLink": "https://res.cloudinary.com/der238lix/image/upload/v1550861438/trimet_commuter.png",
 		"date": "February 2019",
 		"links": [
 			{
