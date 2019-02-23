@@ -1,17 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../../assets/image_links/logo'
-import clearDog from '../../assets/img/clear_dog.png';
-import greezno from '../../assets/img/greezno.png';
+
 import myLogo from '../../assets/img/my_logo.png';
 
-const mobileBG = 'https://res.cloudinary.com/starksten/image/upload/v1543685006/New%20Portfolio%202/mobileBG.png'
-
-const topLeft = 'https://res.cloudinary.com/starksten/image/upload/v1539070734/New%20Portfolio%202/Top_Right.png'
-
-// const logo = 'https://res.cloudinary.com/starksten/image/upload/v1539070735/New%20Portfolio%202/Logo.png'
-
-const topMiddle = 'https://res.cloudinary.com/starksten/image/upload/v1539070734/New%20Portfolio%202/Top_Middle.png'
+const mobileBackground = 'https://res.cloudinary.com/starksten/image/upload/v1543685006/New%20Portfolio%202/mobileBG.png';
+const upperLeftImage = "";
 
 const StyledDiv = styled.div`
 	color: black;
@@ -21,7 +14,7 @@ const StyledDiv = styled.div`
 	}
 
 	@media (max-width: 1000px) {
-		background: url(${mobileBG}) no-repeat;
+		background: url(${mobileBackground}) no-repeat;
 		background-size: 100% 100%;
 		background-attachment: fixed;
 		background-position: center;
@@ -50,7 +43,7 @@ const TopLeftBG = styled.div`
     left: 0;
     width: 340px;
     height: 150px;
-    background: url('${myLogo}') no-repeat;
+    background: ${upperLeftImage};
     background-size: 100% 100%;
     z-index: -2;
   }
@@ -161,7 +154,7 @@ const AboutMe = styled.div`
 const BottomBG = styled.div`
 	@media (min-width: 1000px) {
 		position: absolute;
-		background: url(${topMiddle}) no-repeat;
+
 		background-size: 101% 100%;
 		bottom: -20px;
 		height: 200px;
@@ -190,7 +183,7 @@ I'm wrapping up a full-time bootcamp enrollment at Epicodus, drinking daily from
 Check out below to read more about what I've been doing so far.
 `;
 
-function About2() {
+function About() {
   return (
     <StyledDiv>
       <TopLeftBG />
@@ -199,7 +192,7 @@ function About2() {
         <Wrapper>
           <Container>
             <NameContainer>JARED REANDO</NameContainer>
-            <Position>Full-Stack Developer</Position>
+            <Position>Full Stack Developer</Position>
           </Container>
           <AboutMe>{description}</AboutMe>
         </Wrapper>
@@ -209,5 +202,5 @@ function About2() {
   );
 }
 
-export default About2;
+export default About;
 

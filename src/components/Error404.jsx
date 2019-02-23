@@ -20,7 +20,7 @@ function Error404(props) {
   );
 }
 
-Error404.PropTypes = {
+Error404.propTypes = {
   path: PropTypes.string
 };
 

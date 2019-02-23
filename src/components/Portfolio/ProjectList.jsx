@@ -1,10 +1,7 @@
 import React from 'react';
-import projects from './projects.json';
-import trimetCommuter from '../../assets/img/trimet_commuter.png';
-import masterMind from '../../assets/img/mastermind.png';
-import messengerHunt from '../../assets/img/messenger_hunt.png';
-import Project from './Project';
 import styled from 'styled-components';
+import Project from './Project';
+import projects from './projects.json';
 
 
 const Wrapper = styled.div`

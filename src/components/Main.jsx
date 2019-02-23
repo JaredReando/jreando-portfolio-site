@@ -1,18 +1,17 @@
 import React from 'react';
-import Contact from './Footer/Contact';
+import ItemList from './Footer/ItemList';
 import ProjectList from './Portfolio/ProjectList';
-import EducationList from './Education/EducationList';
 import styled from 'styled-components';
 
 import SkillList from './Skills/SkillList';
-import About2 from './AboutMe/About2';
+import About from './AboutMe/About';
 
-
+const backgroundColor = '#333333'
 
 const Wrapper = styled.div``;
 
 const Body = styled.div`
-  background: #2A9D8F;
+  background: ${backgroundColor};
   height: auto;
 
   @media (min-width: 1000px) {
@@ -27,13 +26,12 @@ const Body = styled.div`
 function Main() {
   return (
     <Wrapper>
-      <About2 />
+      <About />
       <Body>
         <SkillList />
         <ProjectList />
-        <EducationList />
       </Body>
-      <Contact />
+      <ItemList />
     </Wrapper>
   )
 }

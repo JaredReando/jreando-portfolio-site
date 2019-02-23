@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
-import bottomMiddle from '../../assets/img/bottom.png';
-import github from '../../assets/img/github-sign.svg';
-
-import gmail from '../../assets/img/gmail.svg';
-import linkedIn from '../../assets/img/linkedin-sign.svg';
 import Item from './Item';
 
-const grey = 'grey';
+import github from '../../assets/img/github-sign.svg';
+import gmail from '../../assets/img/gmail.svg';
+import linkedIn from '../../assets/img/linkedin-sign.svg';
+
+const backgroundColor = 'grey';
+
 const StyledDiv = styled.div`
-	background: ${grey};
+	background: ${backgroundColor};
 	color: white;
 	height: auto;
 	padding: 20px 0;
@@ -18,7 +18,7 @@ const StyledDiv = styled.div`
 const TopBG = styled.div`
 	position: relative;
 	top: -20px;
-  background-image: url(${bottomMiddle});
+  background-image: ;
 	background-size: 100% 100%;
 	width: 100%;
 	height: 200px;
@@ -52,27 +52,31 @@ const ItemContainer = styled.div`
 	}
 `;
 
-export default () => (
-	<StyledDiv>
-		<TopBG />
-		<Container>
-			<ItemContainer>
-				<Item
-					data="Github"
-					link="https://github.com/godfreyzubiaga"
-					image={github}
-				/>
-			</ItemContainer>
-			<ItemContainer>
-				<Item data="jaredreando@gmail.com" image={gmail} />
-			</ItemContainer>
-			<ItemContainer>
-				<Item
-					data="LinkedIn"
-					link="https://drive.google.com/file/d/1gRMrWYiH5NyumQZyvgTAN5aa996sVPNt/view?usp=sharing"
-					image={linkedIn}
-				/>
-			</ItemContainer>
-		</Container>
-	</StyledDiv>
-);
+function ItemList() {
+	return (
+		<StyledDiv>
+			<TopBG />
+			<Container>
+				<ItemContainer>
+					<Item
+						data="Github"
+						link="https://github.com/godfreyzubiaga"
+						image={github}
+					/>
+				</ItemContainer>
+				<ItemContainer>
+					<Item data="jaredreando@gmail.com" image={gmail} />
+				</ItemContainer>
+				<ItemContainer>
+					<Item
+						data="LinkedIn"
+						link="https://drive.google.com/file/d/1gRMrWYiH5NyumQZyvgTAN5aa996sVPNt/view?usp=sharing"
+						image={linkedIn}
+					/>
+				</ItemContainer>
+			</Container>
+		</StyledDiv>
+	);
+}
+
+export default ItemList;
