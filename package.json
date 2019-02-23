@@ -1,6 +1,7 @@
 {
   "name": "jreando-portfolio-site",
   "version": "1.0.0",
+  "homepage": "https://jaredreando.github.io/jreando-portfolio-site/",
   "description": "My web development portfolio site.",
   "main": "index.js",
   "scripts": {

@@ -11,6 +11,10 @@ const StyledDiv = styled.div`
 
 	@media (min-width: 1000px) {
 		height: 100vh;
+		background: url(${mobileBackground}) no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		background-position: center;
 	}
 
 	@media (max-width: 1000px) {
@@ -190,7 +194,7 @@ function About() {
         <Wrapper>
           <Container>
             <NameContainer>JARED REANDO</NameContainer>
-            <Position>Full Stack Developer</Position>
+            <Position>Full Stack Web Developer</Position>
           </Container>
           <AboutMe>{description}</AboutMe>
         </Wrapper>
