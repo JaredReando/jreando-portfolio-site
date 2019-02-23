@@ -1,5 +1,7 @@
 # Portfolio Site
 
+View published site [here](https://jaredreando.github.io/jreando-portfolio-site/)
+
 #### A web site showcasing my developer portfolio built with React.
 
 #### By Jared Reando
