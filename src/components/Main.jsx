@@ -1,13 +1,11 @@
 import React from 'react';
 import Contact from './Footer/Contact';
 import ProjectList from './Portfolio/ProjectList';
-import ExperienceList from './Experience/ExperienceList';
 import EducationList from './Education/EducationList';
 import styled from 'styled-components';
 
 import SkillList from './Skills/SkillList';
 import About2 from './AboutMe/About2';
-import NewProject from './Portfolio/NewProject';
 
 
 
@@ -34,7 +32,6 @@ function Main() {
         <SkillList />
         <ProjectList />
         <EducationList />
-        <ExperienceList />
       </Body>
       <Contact />
     </Wrapper>

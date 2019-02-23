@@ -154,7 +154,7 @@ const StyledDate = styled.div`
 	color: #c7c7c7;
 `;
 
-const Role = styled(TechnologyUsed)`
+const Hosting = styled(TechnologyUsed)`
 	font-size: 0.8em;
 	background: ${black};
 	color: white;
@@ -189,10 +189,8 @@ function NewProject(props) {
 						))}
 					</LinksContainer>
 					<Description>
-						Roles:{' '}
-						{props.project.roles.map((role, index) => (
-							<Role key={index}>{role}</Role>
-						))}
+						Hosted on:{' '}
+							<Hosting>{props.project.hosting}</Hosting>
 					</Description>
 					<TechnologyUsedContainer>
 						{props.project.technologyUsed.map((tech) => (

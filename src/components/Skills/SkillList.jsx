@@ -2,11 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import Skill from './Skill';
 
-import reactLogo from '../../assets/img/js.png';
-import css3Logo from '../../assets/img/js.png';
-import javascriptLogo from '../../assets/img/js.png';
-import nodeJSLogo from '../../assets/img/js.png';
-import figmaLogo from '../../assets/img/js.png';
+import rubyLogo from '../../assets/img/logo_ruby.png';
+import javascriptLogo from '../../assets/img/logo_javascript.png';
+import railsLogo from '../../assets/img/logo_rails.png';
+import reactLogo from '../../assets/img/logo_react.png';
+import angularLogo from '../../assets/img/logo_angular.svg';
+import htmlLogo from '../../assets/img/logo_html.png';
+import cssLogo from '../../assets/img/logo_css.png';
 
 const StyledDiv = styled.div`
   @media (min-width: 1000px) {
@@ -63,31 +65,53 @@ function SkillList() {
       <SkillsContainer>
         <InnerContainer>
           <SkillContainer>
-            <Skill name="ReactJS" logo={reactLogo} link="https://reactjs.org/" />
+            <Skill 
+            name="Ruby" 
+            logo={rubyLogo} 
+            link="#" 
+            />
           </SkillContainer>
           <SkillContainer>
             <Skill
-              name="CSS3"
-              logo={css3Logo}
-              link="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+              name="Rails"
+              logo={railsLogo}
+              link="#" 
             />
           </SkillContainer>
           <SkillContainer>
             <Skill
               name="Javascript"
               logo={javascriptLogo}
-              link="https://www.javascript.com/"
+              link="#" 
             />
           </SkillContainer>
           <SkillContainer>
             <Skill
-              name="Ruby"
-              logo={nodeJSLogo}
-              link="https://www.nodejs.org/en/"
+              name="React"
+              logo={reactLogo}
+              link="#" 
             />
           </SkillContainer>
           <SkillContainer>
-            <Skill name="Rails" logo={figmaLogo} link="https://www.figma.com" />
+            <Skill 
+              name="Angular" 
+              logo={angularLogo} 
+              link="#"  
+            />
+          </SkillContainer>
+          <SkillContainer>
+            <Skill 
+              name="CSS3" 
+              logo={cssLogo} 
+              link="#"  
+            />
+          </SkillContainer>
+          <SkillContainer>
+            <Skill 
+              name="HTML5" 
+              logo={htmlLogo} 
+              link="#"  
+            />
           </SkillContainer>
         </InnerContainer>
       </SkillsContainer>

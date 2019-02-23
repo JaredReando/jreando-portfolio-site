@@ -1,8 +1,32 @@
 [
-	{
+  {
 		"id": 1,
+		"name": "Mastermind",
+		"hosting": "GitHub",
+		"description": "Classic 70’s board game with tiered difficulty settings and retro styling.",
+		"technologyUsed": [
+			"Javascript",
+			"HTML/CSS",
+			"jQuery"
+		],
+		"logoLink": "../../assets/img/messenger_hunt.png",
+		"date": "October 2018",
+		"links": [
+			{
+				"name": "Demo",
+				"url": "http://message-hunter.herokuapp.com/"
+			},
+			{
+				"name": "Repository",
+				"url": "https://github.com/JaredReando/messenger_hunt"
+			}
+		],
+		"status": "Team Project"
+  },
+	{
+		"id": 2,
 		"name": "Messenger Hunt",
-		"roles": ["Team Project"],
+		"hosting": "Heroku",
 		"description": "Geo-location based messenging app. Uses Google API integration to post hidden messages for friends to find by checking in near the same locations.",
 		"technologyUsed": [
 			"Ruby",
@@ -22,45 +46,22 @@
 				"url": "https://github.com/JaredReando/messenger_hunt"
 			}
 		],
-		"status": "In Development"
-  },
-  {
-		"id": 2,
-		"name": "Mastermind",
-		"roles": ["Team Project"],
-		"description": "Classic 70’s board game with tiered difficulty settings and retro styling.",
-		"technologyUsed": [
-			"Javascript",
-			"HTML/CSS",
-			"jQuery"
-		],
-		"logoLink": "../../assets/img/messenger_hunt.png",
-		"date": "December 2018",
-		"links": [
-			{
-				"name": "Demo",
-				"url": "http://message-hunter.herokuapp.com/"
-			},
-			{
-				"name": "Repository",
-				"url": "https://github.com/JaredReando/messenger_hunt"
-			}
-		],
-		"status": "In Development"
+		"status": "Team Project"
   },
   {
 		"id": 3,
 		"name": "Trimet Commuter",
-		"roles": ["Team Project"],
+		"hosting": "Firebase",
 		"description": "Easily track transit stop arrival statuses for daily PDX commute.",
 		"technologyUsed": [
 			"Javascript",
-			"Angular",
+      "Angular",
+      "Firebase",
 			"Webpack",
 			"NPM"
 		],
 		"logoLink": "../../assets/img/messenger_hunt.png",
-		"date": "December 2018",
+		"date": "February 2019",
 		"links": [
 			{
 				"name": "Demo",
@@ -71,6 +72,6 @@
 				"url": "https://github.com/JaredReando/messenger_hunt"
 			}
 		],
-		"status": "In Development"
+		"status": "Team Project"
   }
 ]

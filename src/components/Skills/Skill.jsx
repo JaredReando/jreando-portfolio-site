@@ -56,7 +56,7 @@ function Skill ({ name, logo, link }) {
       <LogoContainer>
         <Logo logo={logo} />
       </LogoContainer>
-      <TextContainer href={link} target="_blank">
+      <TextContainer href={link}>
         {name}
       </TextContainer>
     </StyledDiv>
