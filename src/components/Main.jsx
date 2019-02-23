@@ -5,15 +5,16 @@ import ExperienceList from './Experience/ExperienceList';
 import EducationList from './Education/EducationList';
 import styled from 'styled-components';
 
+import SkillList from './Skills/SkillList';
 import About2 from './AboutMe/About2';
 import NewProject from './Portfolio/NewProject';
 
 
 
-const StyledDiv = styled.div``;
+const Wrapper = styled.div``;
 
-const MiddlePart = styled.div`
-  background: lightgrey;
+const Body = styled.div`
+  background: #2A9D8F;
   height: auto;
 
   @media (min-width: 1000px) {
@@ -27,15 +28,16 @@ const MiddlePart = styled.div`
 
 function Main() {
   return (
-    <StyledDiv>
+    <Wrapper>
       <About2 />
-      <MiddlePart>
+      <Body>
+        <SkillList />
         <ProjectList />
         <EducationList />
         <ExperienceList />
-      </MiddlePart>
+      </Body>
       <Contact />
-    </StyledDiv>
+    </Wrapper>
   )
 }
 

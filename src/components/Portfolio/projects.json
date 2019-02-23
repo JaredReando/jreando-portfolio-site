@@ -28,12 +28,11 @@
 		"id": 2,
 		"name": "Mastermind",
 		"roles": ["Team Project"],
-		"description": "Geo-location based messenging app. Uses Google API integration to post hidden messages for friends to find by checking in near the same locations.",
+		"description": "Classic 70’s board game with tiered difficulty settings and retro styling.",
 		"technologyUsed": [
-			"Ruby",
-			"Rails",
 			"Javascript",
-			"PostgreSQL"
+			"HTML/CSS",
+			"jQuery"
 		],
 		"logoLink": "../../assets/img/messenger_hunt.png",
 		"date": "December 2018",
@@ -51,14 +50,14 @@
   },
   {
 		"id": 3,
-		"name": "Mastermind",
+		"name": "Trimet Commuter",
 		"roles": ["Team Project"],
-		"description": "Geo-location based messenging app. Uses Google API integration to post hidden messages for friends to find by checking in near the same locations.",
+		"description": "Easily track transit stop arrival statuses for daily PDX commute.",
 		"technologyUsed": [
-			"Ruby",
-			"Rails",
 			"Javascript",
-			"PostgreSQL"
+			"Angular",
+			"Webpack",
+			"NPM"
 		],
 		"logoLink": "../../assets/img/messenger_hunt.png",
 		"date": "December 2018",
@@ -73,30 +72,5 @@
 			}
 		],
 		"status": "In Development"
-  },
-  {
-		"id": 4,
-		"name": "Mastermind",
-		"roles": ["Team Project"],
-		"description": "Geo-location based messenging app. Uses Google API integration to post hidden messages for friends to find by checking in near the same locations.",
-		"technologyUsed": [
-			"Ruby",
-			"Rails",
-			"Javascript",
-			"PostgreSQL"
-		],
-		"logoLink": "../../assets/img/messenger_hunt.png",
-		"date": "December 2018",
-		"links": [
-			{
-				"name": "Demo",
-				"url": "http://message-hunter.herokuapp.com/"
-			},
-			{
-				"name": "Repository",
-				"url": "https://github.com/JaredReando/messenger_hunt"
-			}
-		],
-		"status": "In Development"
-	}
+  }
 ]

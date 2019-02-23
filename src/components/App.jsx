@@ -2,10 +2,14 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Main from './Main';
 import Error404 from './Error404';
+import styled from 'styled-components';
+
+
+const Wrapper = styled.div``;
 
 function App() {
   return (
-    <div>
+    <Wrapper>
       <Switch>
         <Route
           exact path='/'
@@ -15,7 +19,7 @@ function App() {
           component={Error404}
         />
       </Switch>
-    </div>
+    </Wrapper>
   );
 }
 
