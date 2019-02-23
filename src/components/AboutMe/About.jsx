@@ -126,7 +126,7 @@ const LogoContainer = styled.div`
 	}
 `;
 
-const AboutMe = styled.div`
+const AboutMe = styled.p`
 	font-size: 18px;
 
 	text-align: justify;
@@ -172,15 +172,13 @@ const Wrapper = styled.div`
 	justify-content: center;
 `;
 
-const description = `I've always been interested in web technology and computer programming. 
+const description = `I'm a curious problem solver with a passion for discovering imaginative solutions to complex challenges.
 
-After graduating with a double degree in religious studies and english lit in 2012, I helped start and run a large shipping warehouse for the last six years for a fancy baby gear brand. Go figure.
-I've tinkered and built things since I was little, driven by a deep-seated curiosity to know how the world works.
-In my career so far, I've found success wherever I plant roots, look around, and ask, 'What's going on here? What can I learn? How can I make things better?"
-I stumbled into programming sideways, driven by necessity to find solid solutions to real world problems that weren't going away on their own.
-Seeing firsthand the transformative impact of well applied technology inspired my transition to pursue programming full time as a web developer.
-I'm wrapping up a full-time bootcamp enrollment at Epicodus, drinking daily from the information firehose to learn Ruby, Javascript, and a handful of accompanying libraries and frameworks.
-Check out below to read more about what I've been doing so far.
+Having spent the last half decade supporting the exponential growth of a major consumer goods brand as head logistics manager, my experience on the business end of software development projects inspired my career transition into full time web development.
+
+I love the thrill of constant learning, of making unique, useful things with lines of code, and collaborating with other developers. 
+
+Seeking new opportunities to learn, create, and contribute to great companies doing great things.
 `;
 
 function About() {
